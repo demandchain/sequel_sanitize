@@ -1,7 +1,7 @@
 #!/usr/bin/env gem build
 # -*- encoding: utf-8 -*-
 require 'date'
-require 'lib/sequel_sanitize/version'
+require File.expand_path('../lib/sequel_sanitize/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name     = 'sequel_sanitize'
